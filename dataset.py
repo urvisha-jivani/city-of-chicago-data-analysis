@@ -57,8 +57,8 @@ if column_name in df.columns:
     plt.xlabel("Percent")
     plt.ylabel("Number of Community Areas")
     plt.tight_layout()
-    plt.show()
     plt.savefig("assets/no_high_school_distribution.png")
+    plt.show()
 
 else:
     print(f" Column '{column_name}' not found in dataset.")
